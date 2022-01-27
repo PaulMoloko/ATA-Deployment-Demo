@@ -1,0 +1,90 @@
+main{
+   /* background: #f3f4f6;*/
+   background: url(../../../Assets/architecture.jpg);
+    grid-area: main;
+    overflow: auto;
+}
+
+.main__title{
+    display: flex;
+    align-items: center;
+}
+
+.main__title>img{
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.main__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:60px;
+    margin: 20px;
+}
+
+/*.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 350px;
+    padding: 30px;
+    width: 900px;
+    border-radius: 20px;
+    background:  url('../../../Assets/Five-Features-of-a-Good-Monthly-Employee-Work-Schedule-Template-896x518.jpg') center center/cover no-repeat;;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+
+}*/
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    padding: 25px;
+    border-radius: 5px;
+    background:  url('../../../Assets/Five-Features-of-a-Good-Monthly-Employee-Work-Schedule-Template-896x518.jpg') center center/cover no-repeat;;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+
+}
+
+.cardd{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    padding: 25px;
+    border-radius: 5px;
+    background:  url('../../../Assets/update.jpg') center center/cover no-repeat;;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
+
+}
+
+
+i.fa-list {
+    width:50px;
+    height:50px;
+     display:none;
+     border:2px solid white;
+  
+  }
+  .fa-list {
+  
+    padding-top: 5px;
+  }
+
+.card:hover,
+.card.active{
+    color: rgb(255, 255, 255);
+    background: url('../../../Assets/Five-Features-of-a-Good-Monthly-Employee-Work-Schedule-Template-896x518.jpg') center center/cover no-repeat;;
+    border-right: 2px solid rgb(247, 247, 247);
+}
+
+.card_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_inner>span{
+    font-size: 25px;
+}
